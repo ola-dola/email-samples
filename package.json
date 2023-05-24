@@ -1,0 +1,31 @@
+{
+    "name": "email-samples",
+    "version": "1.0.0",
+    "description": "Custom email templates",
+    "main": "index.js",
+    "scripts": {
+        "start": "serve ./output",
+        "approval": "mjml ./mjml/account-approval.mjml -o ./output/account-approval.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/enterscale/email-samples.git"
+    },
+    "keywords": [
+        "email samples",
+        "mjml"
+    ],
+    "author": "Ola Oredola",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/enterscale/email-samples/issues"
+    },
+    "homepage": "https://github.com/enterscale/email-samples#readme",
+    "devDependencies": {
+        "serve": "^14.0.1"
+    },
+    "dependencies": {
+        "mjml": "^4.13.0",
+        "mjml2json": "^1.0.1"
+    }
+}

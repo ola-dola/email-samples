@@ -1,0 +1,43 @@
+<mjml lang="en" dir="ltr">
+  <mj-head>
+    <mj-preview>Placeholder Inbox Preview text (must be at least 90 characters to work properly)</mj-preview>
+    <mj-title>Indian Creek | Placeholder Title for Web View</mj-title>
+    <mj-font name="Barlow" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" />
+    <mj-attributes>
+      <mj-image padding="0" />
+      <mj-section padding="0" />
+      <mj-wrapper padding="0" />
+      <mj-text font-family="Barlow, Arial, sans-serif" padding="0" font-weight="400" />
+      <mj-button padding="0" />
+    </mj-attributes>
+
+    <mj-style>
+      .logo-section {
+        max-height: 45px;
+      }
+
+      @media only screen and (max-width:550px) {}
+
+      @media only screen and (max-width:480px) {}
+
+      @media only screen and (max-width:400px) {}
+
+      @media only screen and (max-width:300px) {}
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#eaf0f3">
+    <mj-section css-class="intro" padding-top="80px">
+      <mj-column width="60%">
+        <mj-image width="72px" align="center" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684959326/mjml-portfolio/maxim_ai_logo.png" alt="MaximAI logo" />
+
+        <mj-text align="center" font-size="28px" line-height="34px" padding-top="14px">
+          Hi <span style="font-weight: bold">James</span>,<br>
+          your MaximAI account has been approved!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    
+  </mj-body>
+</mjml>
