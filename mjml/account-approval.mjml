@@ -16,13 +16,7 @@
         border-radius: 40px !important;
       }
 
-      @media only screen and (max-width:550px) {}
-
       @media only screen and (max-width:480px) {}
-
-      @media only screen and (max-width:400px) {}
-
-      @media only screen and (max-width:300px) {}
     </mj-style>
   </mj-head>
 
@@ -78,10 +72,12 @@
         <mj-column padding-right="16px">
           <mj-image css-class="appstore__btn" width="150px" container-background-color="#000000" href="https://play.google.com/store" padding="8px" width="125px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684977622/mjml-portfolio/google_play.png" alt="Download for Android" />
         </mj-column>
-       <mj-column padding-left="16px">
-          <mj-image css-class="appstore__btn" width="150px" container-background-color="#000000" href="https://play.google.com/store" padding="8px" width="125px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684977622/mjml-portfolio/google_play.png" alt="Download for Android" />
+        <mj-column padding-left="16px">
+          <mj-image css-class="appstore__btn" width="150px" container-background-color="#000000" href="https://play.google.com/store" padding="8px" width="125px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1685008268/mjml-portfolio/apple_app_store.png" alt="Download for iOS" />
         </mj-column>
       </mj-group>
     </mj-section>
+
+    <mj-include path="./footer.mjml" />
   </mj-body>
 </mjml>
