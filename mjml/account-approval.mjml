@@ -27,17 +27,35 @@
   </mj-head>
 
   <mj-body background-color="#eaf0f3">
-    <mj-section css-class="intro" padding-top="80px">
+    <mj-section css-class="intro" padding-top="80px" padding-bottom="36px">
       <mj-column width="60%">
         <mj-image width="72px" align="center" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684959326/mjml-portfolio/maxim_ai_logo.png" alt="MaximAI logo" />
 
-        <mj-text align="center" font-size="28px" line-height="34px" padding-top="14px">
+        <mj-text align="center" font-size="28px" line-height="34px" padding-top="14px" color="#000000">
           Hi <span style="font-weight: bold">James</span>,<br>
           your MaximAI account has been approved!
         </mj-text>
       </mj-column>
     </mj-section>
 
-    
+    <mj-section background-color="#ffffff" border-radius="6px" padding="32px">
+      <mj-column width="60%">
+        <mj-image padding-bottom="48px" width="100px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684962746/mjml-portfolio/rounded_avatar.png" alt="AI avatar" />
+        <mj-text color="#5E5E5E" font-size="14px" line-height="16px" align="center">
+          Your MaximAI account has been approved and you can now log in on to your productName account.
+        </mj-text>
+
+        <mj-divider padding="14px 24px" border-color="#E5E5E5" border-width="1px" />
+
+        <mj-text color="#5E5E5E" padding="0 16px" font-size="14px" line-height="16px" align="center">
+          You can now access productName online or on any device by going to <br /> <a href="https://bing.com">http://productName.com</a>
+        </mj-text>
+
+        <mj-button background-color="#3490EC" font-size="12px" line-height="16px" color="#ffffff" font-weight="bold" width="180px" border-radius="30px" padding="32px 0" href="https://bing.com">
+          Get Started
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
   </mj-body>
 </mjml>
