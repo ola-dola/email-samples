@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/enterscale/email-samples.git"
+        "url": "git+https://github.com/ola-dola/email-samples.git"
     },
     "keywords": [
         "email samples",
@@ -18,9 +18,9 @@
     "author": "Ola Oredola",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/enterscale/email-samples/issues"
+        "url": "https://github.com/ola-dola/email-samples/issues"
     },
-    "homepage": "https://github.com/enterscale/email-samples#readme",
+    "homepage": "https://github.com/ola-dola/email-samples#readme",
     "devDependencies": {
         "serve": "^14.0.1"
     },
