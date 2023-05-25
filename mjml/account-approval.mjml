@@ -1,7 +1,7 @@
 <mjml lang="en" dir="ltr">
   <mj-head>
     <mj-preview>Placeholder Inbox Preview text (must be at least 90 characters to work properly)</mj-preview>
-    <mj-title>MaximAI| Placeholder Title for Web View</mj-title>
+    <mj-title>MaximAI | Placeholder Title for Web View</mj-title>
     <mj-font name="Barlow" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" />
     <mj-attributes>
       <mj-image padding="0" />
@@ -17,7 +17,7 @@
       }
 
       @media only screen and (max-width:480px) {
-        .intro__text div{
+        .intro__text div {
           font-size: 20px !important;
           line-height: 24px !important;
         }
