@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "start": "serve ./output",
-        "approval": "mjml ./mjml/account-approval.mjml -o ./output/account-approval.html"
+        "approval": "mjml ./mjml/account-approval.mjml -o ./output/account-approval.html",
+        "verify": "mjml ./mjml/verify-email.mjml -o ./output/verify-email.html"
     },
     "repository": {
         "type": "git",
