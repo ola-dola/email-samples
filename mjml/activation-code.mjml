@@ -3,6 +3,8 @@
     <mj-preview>Placeholder Inbox Preview text (must be at least 90 characters to work properly)</mj-preview>
     <mj-title>MaximAI | Placeholder Title for Web View</mj-title>
     <mj-font name="Barlow" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" />
+    <mj-font name="Roboto Mono" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,400&display=swap" />
+
     <mj-attributes>
       <mj-image padding="0" />
       <mj-section padding="0" />
@@ -12,10 +14,6 @@
     </mj-attributes>
 
     <mj-style>
-      .appstore__btn {
-        border-radius: 40px !important;
-      }
-
       @media only screen and (max-width:480px) {
         .intro__text div {
           font-size: 20px !important;
@@ -31,25 +29,26 @@
         <mj-image width="72px" align="center" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684959326/mjml-portfolio/maxim_ai_logo.png" alt="MaximAI logo" />
 
         <mj-text align="center" font-size="28px" line-height="34px" padding-top="14px" color="#000000" css-class="intro__text">
-          MaximAI is back online!
+          Activation Code
         </mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section background-color="#ffffff" border-radius="6px" padding="32px 16px">
-      <mj-column width="75%">
+      <mj-column width="60%">
         <mj-image padding-bottom="48px" width="100px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684962746/mjml-portfolio/rounded_avatar.png" alt="AI avatar" />
+
+        <mj-button color="#3490EC" border="1px dashed #3490EC" border-radius="32px" background-color="#ffffff" width="180px" inner-padding="12px 25px" padding-bottom="32px" font-size="16px" line-height="18px" font-family="Roboto Mono" align="center" font-style="italic">
+          435264
+        </mj-button>
         <mj-text color="#5E5E5E" font-size="14px" line-height="16px" align="center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perspiciatis voluptas provident, quisquam cum ducimus distinctio provident, quisquam .
+          You are ready to setup your new MaximAI account.
+          Copy your activation code or click the button below to activate your account.
         </mj-text>
 
         <mj-button background-color="#3490EC" font-size="12px" line-height="16px" color="#ffffff" font-weight="bold" width="180px" border-radius="30px" padding="32px 0" href="https://bing.com">
-          Log in to your account
+          Activate your account
         </mj-button>
-
-        <mj-text color="#5E5E5E" font-size="14px" line-height="16px" align="center">
-          You can now access MaximAI online or on any device by going to <a href="https://bing.com">http://maximai.com</a>
-        </mj-text>
       </mj-column>
     </mj-section>
 
