@@ -16,23 +16,28 @@
         border-radius: 40px !important;
       }
 
-      @media only screen and (max-width:480px) {}
+      @media only screen and (max-width:480px) {
+        .intro__text div{
+          font-size: 20px !important;
+          line-height: 24px !important;
+        }
+      }
     </mj-style>
   </mj-head>
 
   <mj-body background-color="#eaf0f3">
-    <mj-section css-class="intro" padding-top="80px" padding-bottom="36px">
+    <mj-section css-class="intro" padding="80px 24px 36px">
       <mj-column width="60%">
         <mj-image width="72px" align="center" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684959326/mjml-portfolio/maxim_ai_logo.png" alt="MaximAI logo" />
 
-        <mj-text align="center" font-size="28px" line-height="34px" padding-top="14px" color="#000000">
+        <mj-text align="center" font-size="28px" line-height="34px" padding-top="14px" color="#000000" css-class="intro__text">
           Hi <span style="font-weight: bold">James</span>,<br>
           your MaximAI account has been approved!
         </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#ffffff" border-radius="6px" padding="32px">
+    <mj-section background-color="#ffffff" border-radius="6px" padding="32px 16px">
       <mj-column width="60%">
         <mj-image padding-bottom="48px" width="100px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684962746/mjml-portfolio/rounded_avatar.png" alt="AI avatar" />
         <mj-text color="#5E5E5E" font-size="14px" line-height="16px" align="center">
@@ -56,7 +61,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#ffffff" border-radius="6px" padding="32px 32px 0">
+    <mj-section background-color="#ffffff" border-radius="6px" padding="32px 16px 0">
       <mj-column width="75%">
         <mj-text padding-bottom="20px" align="center" font-weight="bold" font-size="22px" line-height="28px">
           Get the MaximAI app!

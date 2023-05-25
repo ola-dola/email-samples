@@ -1,0 +1,22 @@
+<mj-section padding="32px 32px 64px" background-color="transparent">
+  <mj-column width="300px">
+    <mj-social font-size="15px" icon-size="40px" mode="horizontal" padding="0">
+      <mj-social-element href="https://facebook.com/" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1685008838/mjml-portfolio/facebook_icon.png" alt="Facebook logo" />
+      <mj-social-element href="https://twitter.com/" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1685041349/mjml-portfolio/twitter_icon.png" alt="Twitter logo" />
+      <mj-social-element href="https://linkedin.com/" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1685041345/mjml-portfolio/linkeding_icon.png" alt="Linkedin logo" />
+      <mj-social-element href="https://instagram.com/" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1685042355/mjml-portfolio/instagram_icon.png" alt="Instagram logo" />
+    </mj-social>
+
+    <mj-text font-size="14px" line-height="16px" align="center" padding="8px 0">
+      Copyright © 2023
+    </mj-text>
+
+    <mj-text font-size="14px" line-height="16px" font-weight="bold" align="center" padding-bottom="8px">
+      MaximAI
+    </mj-text>
+
+    <mj-text font-size="14px" line-height="16px" align="center">
+      Best in class AI models
+    </mj-text>
+  </mj-column>
+</mj-section>
