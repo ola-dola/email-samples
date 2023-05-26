@@ -7,7 +7,9 @@
         "start": "serve ./output",
         "approval": "mjml ./mjml/account-approval.mjml -o ./output/account-approval.html",
         "verify": "mjml ./mjml/verify-email.mjml -o ./output/verify-email.html",
-        "online": "mjml ./mjml/back-online.mjml -o ./output/back-online.html"
+        "online": "mjml ./mjml/back-online.mjml -o ./output/back-online.html",
+        "forgot": "mjml ./mjml/forgot-password.mjml -o ./output/forgot-password.html",
+        "goodbye": "mjml ./mjml/goodbye.mjml -o ./output/goodbye.html"
     },
     "repository": {
         "type": "git",
