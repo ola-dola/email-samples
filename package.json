@@ -9,7 +9,8 @@
         "verify": "mjml ./mjml/verify-email.mjml -o ./output/verify-email.html",
         "online": "mjml ./mjml/back-online.mjml -o ./output/back-online.html",
         "forgot": "mjml ./mjml/forgot-password.mjml -o ./output/forgot-password.html",
-        "goodbye": "mjml ./mjml/goodbye.mjml -o ./output/goodbye.html"
+        "goodbye": "mjml ./mjml/goodbye.mjml -o ./output/goodbye.html",
+        "newsletter": "mjml ./mjml/newsletter.mjml -o ./output/newsletter.html"
     },
     "repository": {
         "type": "git",

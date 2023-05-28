@@ -1,0 +1,84 @@
+<mjml lang="en" dir="ltr">
+  <mj-head>
+    <mj-preview>Placeholder Inbox Preview text (must be at least 90 characters to work properly)</mj-preview>
+    <mj-title>MaximAI | Placeholder Title for Web View</mj-title>
+    <mj-font name="Barlow" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" />
+    <mj-attributes>
+      <mj-image padding="0" />
+      <mj-section padding="0" />
+      <mj-wrapper padding="0" />
+      <mj-text font-family="Barlow, Arial, sans-serif" padding="0" font-weight="400" />
+      <mj-button padding="0" />
+    </mj-attributes>
+
+    <mj-style>
+      .appstore__btn {
+        border-radius: 40px !important;
+      }
+
+      @media only screen and (max-width:480px) {
+        .intro__text div {
+          font-size: 20px !important;
+          line-height: 24px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#eaf0f3">
+    <mj-wrapper padding="0 8px">
+      <mj-section css-class="intro" padding="80px 0 36px">
+        <mj-column>
+          <mj-social align="left" font-size="17px" icon-size="42px" mode="horizontal" padding="0">
+            <mj-social-element href="https://instagram.com/" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684959326/mjml-portfolio/maxim_ai_logo.png" alt="MaximAI logo">
+              <span style="font-weight: bold">MaximAI</span>
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" border-radius="6px">
+        <mj-column>
+          <mj-image src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1685089347/mjml-portfolio/newsletter_banner.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" border-radius="6px" padding="20px 32px">
+        <mj-column>
+          <mj-text>
+            <h1 style="color: #5E5E5E; font-size: 18px; font-weight: bold; margin: 0 0 14px;">Lorem ipsum dolor sit amet con</h1>
+
+            <p style="margin: 14px 0; color: #5E5E5E; font-size: 13px; line-height: 16px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perspiciatis voluptas provident, quisquam cum officia inventore ducimus distinctio beatae possimus, cumque, voluptatem magni. Iste at, error et corrupti unde ratione! Maxime ut explicabo laboriosam exercitationem inventore harum quos consectetur distinctio, earum illo sit, ea libero veritatis consequatur quam aut ullam quod! Ut numquam facilis quae repudiandae itaque.
+            </p>
+
+            <p style="margin: 14px 0; color: #5E5E5E; font-size: 13px; line-height: 16px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perspiciatis voluptas provident, quisquam cum officia inventore ducimus distinctio beatae possimus, cumque, voluptatem magni. Iste at, error et corrupti unde ratione! Maxime ut explicabo laboriosam exercitationem inventore harum quos consectetur distinctio, earum illo sit, ea libero veritatis consequatur quam aut ullam quod! Ut numquam facilis quae repudiandae itaque.
+            </p>
+
+            <p style="margin: 14px 0; color: #5E5E5E; font-size: 13px; line-height: 16px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perspiciatis voluptas provident, quisquam cum officia inventore ducimus distinctio beatae possimus, cumque, voluptatem magni. Iste at, error et corrupti unde ratione! Maxime ut explicabo laboriosam exercitationem inventore harum quos consectetur distinctio, earum illo sit, ea libero veritatis consequatur quam aut ullam quod! Ut numquam facilis quae repudiandae <a style="font-weight: bold; text-decoration: none" href="https://bing.com" target="_blank" rel="noreferrer">here</a>.
+            </p>
+
+            <p style="margin: 14px 0; color: #5E5E5E; font-size: 13px; line-height: 16px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perspiciatis voluptas provident, quisquam cum officia inventore ducimus distinctio beatae possimus, cumque, voluptatem magni. Iste at, error et corrupti unde ratione! Maxime ut explicabo laboriosam exercitationem inventore harum quos consectetur distinctio, earum illo sit, ea libero veritatis consequatur quam aut ullam quod! Ut numquam facilis quae repudiandae itaque.
+            </p>
+          </mj-text>
+
+          <mj-button background-color="#3490EC" font-size="12px" line-height="16px" color="#ffffff" font-weight="bold" width="180px" border-radius="30px" align="left" padding-bottom="20px" href="https://bing.com">
+            Call to action
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="16px" background-color="transparent">
+        <mj-column>
+        </mj-column>
+      </mj-section>
+
+      <mj-include path="./download-app-v1.mjml" />
+
+      <mj-include path="./footer.mjml" />
+    </mj-wrapper>
+  </mj-body>
+</mjml>
