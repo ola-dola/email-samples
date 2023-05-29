@@ -1,20 +1,22 @@
-<mj-section background-color="#ffffff" border-radius="6px" padding="32px 16px 0">
-  <mj-column width="75%">
-    <mj-text padding-bottom="20px" align="center" font-weight="bold" font-size="22px" line-height="28px">
-      Get the MaximAI app!
-    </mj-text>
-    <mj-text padding-bottom="20px" color="#5E5E5E" font-size="14px" line-height="16px" align="center">
-      Get the most of MaximAI by installing our mobile app. <br />
-      You can log in by using your existing emails address an password. </mj-text>
-  </mj-column>
-</mj-section>
-<mj-section background-color="#ffffff" border-radius="6px" padding="0 32px 58px">
-  <mj-group width="70%">
-    <mj-column padding-right="16px">
-      <mj-image css-class="appstore__btn" width="150px" container-background-color="#000000" href="https://play.google.com/store" padding="8px" width="125px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684977622/mjml-portfolio/google_play.png" alt="Download for Android" />
+<mj-wrapper background-color="#ffffff" border-radius="6px">
+  <mj-section padding="32px 16px 0">
+    <mj-column width="75%">
+      <mj-text padding-bottom="20px" align="center" font-weight="bold" font-size="22px" line-height="28px">
+        Get the MaximAI app!
+      </mj-text>
+      <mj-text padding-bottom="20px" color="#5E5E5E" font-size="14px" line-height="16px" align="center">
+        Get the most of MaximAI by installing our mobile app. <br />
+        You can log in by using your existing emails address an password. </mj-text>
     </mj-column>
-    <mj-column padding-left="16px">
-      <mj-image css-class="appstore__btn" width="150px" container-background-color="#000000" href="https://play.google.com/store" padding="8px" width="125px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1685008268/mjml-portfolio/apple_app_store.png" alt="Download for iOS" />
-    </mj-column>
-  </mj-group>
-</mj-section>
+  </mj-section>
+  <mj-section padding="0 32px 58px">
+    <mj-group width="70%">
+      <mj-column padding-right="16px">
+        <mj-image css-class="appstore__btn" width="150px" container-background-color="#000000" href="https://play.google.com/store" padding="8px" width="125px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684977622/mjml-portfolio/google_play.png" alt="Download for Android" />
+      </mj-column>
+      <mj-column padding-left="16px">
+        <mj-image css-class="appstore__btn" width="150px" container-background-color="#000000" href="https://play.google.com/store" padding="8px" width="125px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1685008268/mjml-portfolio/apple_app_store.png" alt="Download for iOS" />
+      </mj-column>
+    </mj-group>
+  </mj-section>
+</mj-wrapper>
