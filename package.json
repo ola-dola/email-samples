@@ -10,6 +10,7 @@
         "online": "mjml ./mjml/back-online.mjml -o ./output/back-online.html",
         "forgot": "mjml ./mjml/forgot-password.mjml -o ./output/forgot-password.html",
         "goodbye": "mjml ./mjml/goodbye.mjml -o ./output/goodbye.html",
+        "welcome-v1": "mjml ./mjml/welcome-v1.mjml -o ./output/welcome-v1.html",
         "newsletter": "mjml ./mjml/newsletter.mjml -o ./output/newsletter.html"
     },
     "repository": {
@@ -30,7 +31,6 @@
         "serve": "^14.0.1"
     },
     "dependencies": {
-        "mjml": "^4.13.0",
-        "mjml2json": "^1.0.1"
+        "mjml": "^4.13.0"
     }
 }

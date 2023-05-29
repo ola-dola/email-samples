@@ -1,0 +1,20 @@
+<mj-section background-color="#ffffff" border-radius="6px" padding="32px 16px 0">
+  <mj-column width="60%" padding-bottom="32px">
+    <mj-text padding-bottom="20px" align="left" font-weight="bold" font-size="22px" line-height="28px">
+      Get our <br/> MaximAI app!
+    </mj-text>
+    <mj-text padding-bottom="20px" color="#5E5E5E" font-size="14px" line-height="16px" align="left">
+      Get the most of MaximAI by installing our mobile app.
+      You can log in by using your existing emails address an password.
+    </mj-text>
+    <mj-social align="left" padding="0" icon-size="120px" icon-padding="2px 6px">
+      <mj-social-element background-color="#000000" border-radius="40px" icon-height="42px" href="https://play.google.com/store" target="_blank" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684977622/mjml-portfolio/google_play.png" alt="Download for Android">
+      </mj-social-element>
+      <mj-social-element background-color="#000000" border-radius="40px" icon-height="42px" href="https://www.apple.com/app-store/" target="_blank" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1685008268/mjml-portfolio/apple_app_store.png" alt="Download for iOS">
+      </mj-social-element>
+    </mj-social>
+  </mj-column>
+  <mj-column width="40%" vertical-align="bottom">
+    <mj-image align="center" width="190px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1685403050/mjml-portfolio/iphone.png" alt="" />
+  </mj-column>
+</mj-section>
