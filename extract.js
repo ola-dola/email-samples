@@ -1,5 +1,5 @@
 function extract() {
-// Extract job descriptions from upwork search page
+  // Extract job descriptions from upwork search page
 
   let descriptions = document.querySelectorAll(
     "span[data-test='job-description-text']"

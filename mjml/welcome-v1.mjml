@@ -13,14 +13,35 @@
 
     <mj-style>
       .appstore__btn {
-        border-radius: 40px !important;
+      border-radius: 40px !important;
       }
 
       @media only screen and (max-width:480px) {
-        .intro__text div {
-          font-size: 20px !important;
-          line-height: 24px !important;
-        }
+      .intro__text div {
+      font-size: 20px !important;
+      line-height: 24px !important;
+      }
+
+      .features > table > tbody > tr > td{
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+      }
+
+      .center-on-mobile,
+      .center-on-mobile div {
+      text-align: center !important;
+      }
+
+      .feature-container {
+      padding-bottom: 32px !important;
+      }
+
+      .feature img {
+      max-width: 150px !important;
+      text-align: center !important;
+      margin: 0 auto !important;
+      padding-bottom: 12px;
+      }
       }
     </mj-style>
   </mj-head>
@@ -40,7 +61,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-wrapper background-color="#ffffff" border-radius="6px" padding="20px 50px 38px">
+    <mj-wrapper background-color="#ffffff" border-radius="6px" padding="20px 50px 38px" css-class="features">
       <mj-section>
         <mj-column>
           <mj-text color="#5E5E5E" font-weight="bold" font-size="17px" align="center" line-height="20px">
@@ -49,37 +70,39 @@
         </mj-column>
       </mj-section>
 
-      <mj-section padding-top="32px">
-        <mj-column width="60%" vertical-align="middle">
-          <mj-text font-size="13px" line-height="16px" color="#5E5E5E">
-            <h2 style="font-weight: bold; color: #5E5E5E; font-size: 13px; margin: 0; margin-bottom: 12px;">Call to action</h2>
-            <p style="margin: 0;">Maxime ut explicabo laboriosam exercitationem inventore harum quos consectetur distinctio, earum illo sit, ea libero veritatis consequatur quam aut ulla</p>
-          </mj-text>
-        </mj-column>
+      <mj-section padding-top="32px" direction="rtl" css-class="feature-container">
         <mj-column width="40%" vertical-align="middle">
-          <mj-image align="right" width="147px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684962746/mjml-portfolio/rounded_avatar.png" alt="AI avatar" />
-        </mj-column>
-      </mj-section>
-      <mj-section>
-        <mj-column width="40%" vertical-align="middle">
-          <mj-image align="left" width="147px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684962746/mjml-portfolio/rounded_avatar.png" alt="AI avatar" />
+          <mj-image css-class="feature" fluid-on-mobile="true" align="right" width="147px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684962746/mjml-portfolio/rounded_avatar.png" alt="AI avatar" />
         </mj-column>
         <mj-column width="60%" vertical-align="middle">
           <mj-text font-size="13px" line-height="16px" color="#5E5E5E">
-            <h2 style="font-weight: bold; color: #5E5E5E; font-size: 13px; margin: 0; margin-bottom: 12px;">Call to action</h2>
+            <h2 style="font-weight: bold; color: #5E5E5E; font-size: 13px; margin: 0; margin-bottom: 8px;">Call to action</h2>
             <p style="margin: 0;">Maxime ut explicabo laboriosam exercitationem inventore harum quos consectetur distinctio, earum illo sit, ea libero veritatis consequatur quam aut ulla</p>
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section>
+
+      <mj-section css-class="feature-container">
+        <mj-column width="40%" vertical-align="middle">
+          <mj-image css-class="feature" fluid-on-mobile="true" align="left" width="147px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684962746/mjml-portfolio/rounded_avatar.png" alt="AI avatar" />
+        </mj-column>
         <mj-column width="60%" vertical-align="middle">
           <mj-text font-size="13px" line-height="16px" color="#5E5E5E">
-            <h2 style="font-weight: bold; color: #5E5E5E; font-size: 13px; margin: 0; margin-bottom: 12px;">Call to action</h2>
+            <h2 style="font-weight: bold; color: #5E5E5E; font-size: 13px; margin: 0; margin-bottom: 8px;">Call to action</h2>
             <p style="margin: 0;">Maxime ut explicabo laboriosam exercitationem inventore harum quos consectetur distinctio, earum illo sit, ea libero veritatis consequatur quam aut ulla</p>
           </mj-text>
         </mj-column>
+      </mj-section>
+
+      <mj-section direction="rtl" css-class="feature-container">
         <mj-column width="40%" vertical-align="middle">
-          <mj-image align="right" width="147px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684962746/mjml-portfolio/rounded_avatar.png" alt="AI avatar" />
+          <mj-image css-class="feature" fluid-on-mobile="true" align="right" width="147px" src="https://res.cloudinary.com/dkrdgmlfm/image/upload/v1684962746/mjml-portfolio/rounded_avatar.png" alt="AI avatar" />
+        </mj-column>
+        <mj-column width="60%" vertical-align="middle">
+          <mj-text font-size="13px" line-height="16px" color="#5E5E5E">
+            <h2 style="font-weight: bold; color: #5E5E5E; font-size: 13px; margin: 0; margin-bottom: 8px;">Call to action</h2>
+            <p style="margin: 0;">Maxime ut explicabo laboriosam exercitationem inventore harum quos consectetur distinctio, earum illo sit, ea libero veritatis consequatur quam aut ulla</p>
+          </mj-text>
         </mj-column>
       </mj-section>
     </mj-wrapper>
