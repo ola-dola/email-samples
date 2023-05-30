@@ -4,15 +4,15 @@
     "description": "Custom email templates",
     "main": "index.js",
     "scripts": {
-        "start": "serve ./output",
-        "approval": "mjml ./mjml/account-approval.mjml -o ./output/account-approval.html",
-        "activation": "mjml ./mjml/activation-code.mjml -o ./output/activation-code.html",
-        "online": "mjml ./mjml/back-online.mjml -o ./output/back-online.html",
-        "forgot": "mjml ./mjml/forgot-password.mjml -o ./output/forgot-password.html",
-        "goodbye": "mjml ./mjml/goodbye.mjml -o ./output/goodbye.html",
-        "newsletter": "mjml ./mjml/newsletter.mjml -o ./output/newsletter.html",
-        "verify": "mjml ./mjml/verify-email.mjml -o ./output/verify-email.html",
-        "welcome": "mjml ./mjml/welcome.mjml -o ./output/welcome.html"
+        "start": "serve ./html",
+        "approval": "mjml ./mjml/account-approval.mjml -o ./html/account-approval.html",
+        "activation": "mjml ./mjml/activation-code.mjml -o ./html/activation-code.html",
+        "online": "mjml ./mjml/back-online.mjml -o ./html/back-online.html",
+        "forgot": "mjml ./mjml/forgot-password.mjml -o ./html/forgot-password.html",
+        "goodbye": "mjml ./mjml/goodbye.mjml -o ./html/goodbye.html",
+        "newsletter": "mjml ./mjml/newsletter.mjml -o ./html/newsletter.html",
+        "verify": "mjml ./mjml/verify-email.mjml -o ./html/verify-email.html",
+        "welcome": "mjml ./mjml/welcome.mjml -o ./html/welcome.html"
     },
     "repository": {
         "type": "git",
